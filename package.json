@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wevdiaz/Happy-NLW03/issues"
   },
-  "homepage": "https://github.com/wevdiaz/Happy-NLW03#readme"
+  "homepage": "https://github.com/wevdiaz/Happy-NLW03#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
