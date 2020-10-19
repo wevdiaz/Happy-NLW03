@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
   <head>
     <title>Adicionar um orfanato | Happy</title>
     <meta charset="UTF-8" />
@@ -46,7 +46,7 @@
 
       <main class="animate-appear width-sidebar">
 
-        <form action="">
+        <form action="save-orphanage" method="POST" onsubmit="validate(event)">
 
           <fieldset>
             <legend>Dados</legend>
@@ -85,7 +85,7 @@
               <div class="images-upload" id="images">
 
                 <div class="new-upload">
-                  <input name="images" placeholder="Cole o link da foto aqui" required>
+                  <input name="images" placeholder="Cole o link da foto aqui" required type="url">
                   <span onclick="deleteField(event)">
                     <img src="/images/remove-file.svg" alt="remover foto">
                   </span>
