@@ -101,9 +101,13 @@ function toggleSelect(event) {
 
 function validate(event) {
 
-    // validar se lat e lng estão preenchidos
-    // preventDefault();
-    // alert("Selecione um ponto no mapa")
+    const fieldMap = document.querySelector(".map-container input[name='lat']").value;
+   
+    if (fieldMap == "") {
+        event.preventDefault();
+        return alert("O campo do mapa deve ser selecionado");
+    }
+    
 }
 
     
