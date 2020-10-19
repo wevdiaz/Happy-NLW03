@@ -98,4 +98,12 @@ function toggleSelect(event) {
     
 }
 
+
+function validate(event) {
+
+    // validar se lat e lng estão preenchidos
+    // preventDefault();
+    // alert("Selecione um ponto no mapa")
+}
+
     
