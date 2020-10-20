@@ -60,8 +60,6 @@ Database.then(async function(db) {
 
 
     // Deletar dado da tabela
-    // await db.run("DELETE FROM orphanages WHERE id = '5' ");
-
-    
+    // await db.run("DELETE FROM orphanages WHERE id = '5' ");    
 
 });

@@ -55,13 +55,14 @@ module.exports = {
     async saveOrphanage(req, res) {
         const fields = req.body;
 
-        //validar se campos estão preenchidos
+        // validate if fields are filled
+        
         if (Object.values(fields).includes("")) {
             return res.send("<h3>Todos os campos devem ser preenchidos</h3>");
         }
 
         try {
-            // salvar os dados
+            // Save the data
             const db = await Database;
             await saveOrphanage(db, {
                 lat: fields.lat ,
