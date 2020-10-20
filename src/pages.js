@@ -8,6 +8,10 @@ module.exports = {
         return res.render("index");
     },
 
+    listOrphanages(req, res) {
+        return res.render("orphanages-list");
+    },
+
     async orphanage(req, res) {
 
         const id = req.query.id;
