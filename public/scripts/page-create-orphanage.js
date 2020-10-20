@@ -40,20 +40,20 @@ function addPhotoField() {
     // get container to double .new-upload
     const fieldsContainer = document.querySelectorAll(".new-upload")
 
-    // realizar o clone da last imagem add
+    // make the clone from last image add
     const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true);
 
-    // verificar se o campo está vazio
+    // check if the field is empty 
     const input = newFieldContainer.children[0];
 
     if (input.value == "") {
         return 
     }
 
-    //limpar o campo antes de adicionar ao container de imagens
+    //clear the field before from  add in the container from images
     input.value = "";
 
-    // add o clone ao container de #images
+    // add the clone in the container  #images
     container.appendChild(newFieldContainer);
 }
 
@@ -64,16 +64,15 @@ function deleteField(event) {
     const fieldsContainer = document.querySelectorAll(".new-upload");
 
     if (fieldsContainer.length <= 1) {
-        // limpar o valor do campo
+        // clear value from field
         span.parentNode.children[0].value = "";
 
         return
     }
 
-    // deletar o campo
+    // delete the field
     span.parentNode.remove();
-
-    // aula parou em 1:39
+    
 }
 
 
@@ -82,7 +81,7 @@ function deleteField(event) {
 
 function toggleSelect(event) {
 
-    // retirar a class active
+    // remove the class active
     document.querySelectorAll(".button-select button")
         .forEach(function(button) {
             button.classList.remove("active")
@@ -91,7 +90,7 @@ function toggleSelect(event) {
     const button = event.currentTarget
     button.classList.add("active");
 
-    // atualizar o input hidden com o valor selecionado
+    // update the input hidden with value selected
     const input = document.querySelector("[name='open_on_weekends']");
 
     input.value = button.dataset.value;
