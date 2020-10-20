@@ -11,6 +11,7 @@ server.set("views", path.join(__dirname, "views"));
 server.set("view engine", "hbs");
 
 server.get("/", pages.index );
+server.get("/list-orphanages", pages.listOrphanages );
 server.get("/orphanage", pages.orphanage );
 server.get("/orphanages", pages.orphanages );
 server.get("/create-orphanage", pages.createOrphanage );
