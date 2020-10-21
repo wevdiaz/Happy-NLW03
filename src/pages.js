@@ -14,14 +14,16 @@ module.exports = {
             const db = await Database;
             const results = await db.all("SELECT * FROM  orphanages");
             const orphanages = results.map(function(orphanage){
-                orphanage = {
-                    ... orphanage.images = orphanage.images.split(",")                   
+                const orphanageImages = {
+                    ... orphanage,
+                    images: orphanage.images.split(","),
+                    firstImage: orphanage.images[0]
                 }
+
+                return orphanageImages;
             });
-
-            console.log(orphanages);
-
-            return res.render("orphanages-list", { orphanages: results });
+            
+            return res.render("orphanages-list", { orphanages });
 
         } catch(error) {
             console.error(error)
