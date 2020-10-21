@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/CSS/animations.css" />
     <link rel="stylesheet" href="/CSS/sidebar.css">   
     <link rel="stylesheet" href="/CSS/buttons.css">
-    <link rel="stylesheet" href="/CSS/page-orphanage.css" />
+    <link rel="stylesheet" href="/CSS/page-list-orphanages.css" />
   </head>
 
   <body>
@@ -32,7 +32,55 @@
 
      <main>
         <div class="list-orphanages">
-            <h1>Listagem de Orfanatos</h1>
+           
+
+            <div class="orphanage-card">
+
+              <div class="photo-orphanage">
+                <img src="https://images.unsplash.com/photo-1535572290543-960a8046f5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+              </div>
+
+              <div class="info-orphanage">
+               
+                <h3>{{orphanages.[0].name}}</h3>
+                
+
+                <div>
+                  <p>{{orphanages.[0].about}}</p>
+                </div>
+
+                <div>                  
+                  <p><span>&#128222;</span>{{orphanages.[0].whatsapp}}</p>
+                </div>
+
+                <button type="button">Deletar cadastro</button>
+
+              </div>
+            </div>
+
+            <div class="orphanage-card">
+
+              <div class="photo-orphanage">
+                <img src="https://images.unsplash.com/photo-1535572290543-960a8046f5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+              </div>
+
+              <div class="info-orphanage">
+                <h3>nome do orfanato</h3>
+
+                <div>
+                  <p>Descrição</p>
+                </div>
+
+                <div>
+                  
+                  <p><span>&#128222;</span>9454815-25481</p>
+                </div>
+
+                <button type="button">Deletar cadastro</button>
+
+              </div>
+            </div>
+
         </div>
      </main>
 
