@@ -8,8 +8,27 @@ module.exports = {
         return res.render("index");
     },
 
-    listOrphanages(req, res) {
-        return res.render("orphanages-list");
+    async listOrphanages(req, res) {
+
+        try {
+            const db = await Database;
+            const results = await db.all("SELECT * FROM  orphanages");
+            const orphanages = results.map(function(orphanage){
+                orphanage = {
+                    ... orphanage.images = orphanage.images.split(",")                   
+                }
+            });
+
+            console.log(orphanages);
+
+            return res.render("orphanages-list", { orphanages: results });
+
+        } catch(error) {
+            console.error(error)
+            return res.send(`Erro no banco de dados`);
+        }
+        
+        
     },
 
     async orphanage(req, res) {
