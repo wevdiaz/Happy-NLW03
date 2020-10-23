@@ -15,7 +15,7 @@ for (card of cards) {
 
 
         console.log(cardid);
-        console.log("pode ser apagado")
+        console.log("Será  apagado")
     });
 }
 
