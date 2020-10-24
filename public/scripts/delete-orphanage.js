@@ -1,24 +1,41 @@
+
 const cards = document.querySelectorAll(".list-orphanages .orphanage-card button");
-
-for (card of cards) {
-    const containerCard = card.parentNode;
-    const cardid = containerCard.querySelector(".info-orphanage input").value;
-
-    card.addEventListener("click", function(){
-
-        const confirmation = confirm("Deseja apagar?");
-
-        if (!confirmation) {
-            console.log("continuar")
-            return
-        }
+const formDelete = document.querySelector(".list-orphanages #formDelete");
 
 
-        console.log(cardid);
-        console.log("Será  apagado")
-    });
-}
+// for (card of cards) {
+//     const containerCard = card.parentNode;
+//     const cardid = containerCard.querySelector(".info-orphanage input").value;
 
-console.log(cards)
+//     card.addEventListener("submit", function(event){
+
+//         const confirmation = confirm("Deseja apagar?");
+
+//         if (!confirmation) {
+//             console.log("continuar")
+//             event.preventDeafault();
+//             return
+//         }                
+
+        
+        
+//     });
+// }
+
+
+formDelete.addEventListener("submit", function(event){
+
+    const confirmation = confirm("Deseja apagar?");
+
+    if (!confirmation) {        
+        event.preventDefault();
+        return
+    }                
+
+    
+    
+});
+
+
 
 
