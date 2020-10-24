@@ -16,6 +16,7 @@ server.get("/orphanage", pages.orphanage );
 server.get("/orphanages", pages.orphanages );
 server.get("/create-orphanage", pages.createOrphanage );
 server.post("/save-orphanage", pages.saveOrphanage );
+server.post("/list-orphanages", pages.deleteOrphanage );
 
 
 server.listen(5000, function() {
