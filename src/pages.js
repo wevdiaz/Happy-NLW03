@@ -22,14 +22,14 @@ module.exports = {
 
                 return orphanageImages;
             });
-            
+
+                        
             return res.render("orphanages-list", { orphanages });
 
         } catch(error) {
             console.error(error)
             return res.send(`Erro no banco de dados`);
-        }
-        
+        }       
         
     },
 
@@ -108,6 +108,10 @@ module.exports = {
             return res.send("Erro no banco de dados");
         }
         
+    },
+    
+    async deleteOrphanage(req, res) {
+        return res.send(req.body);
     }
 
 }
