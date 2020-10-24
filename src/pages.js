@@ -111,7 +111,13 @@ module.exports = {
     },
     
     async deleteOrphanage(req, res) {
-        return res.send(req.body);
+        const { id } = req.body;
+
+        const db = await Database;
+
+        await db.run(`DELETE FROM orphanages WHERE id = '${id}' `);
+        return res.redirect("/list-orphanages");
+        
     }
 
 }
