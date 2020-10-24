@@ -53,8 +53,8 @@
                   <p><span>&#128222;</span>{{whatsapp}}</p>
                 </div>
 
-                <input type="hidden" name="id" value="{{id}}">
-                <button type="button">Deletar cadastro</button>
+                
+                <button form="formDelete" type="submit">Deletar cadastro</button>
 
               </div>
             </div>
@@ -82,6 +82,10 @@
 
               </div>
             </div> --}}
+
+            <form id="formDelete" action="" method="POST">
+              <input type="hidden" name="id" value="{{id}}">
+            </form>
 
            
 
