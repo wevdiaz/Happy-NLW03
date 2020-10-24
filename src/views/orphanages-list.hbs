@@ -54,40 +54,15 @@
                 </div>
 
                 
-                <button form="formDelete" type="submit">Deletar cadastro</button>
+                <button form="formDelete" type="submit" id="{{id}}">Deletar cadastro</button>
 
               </div>
             </div>
-            {{/each}}
+            {{/each}}            
 
-            {{!-- <div class="orphanage-card">
-
-              <div class="photo-orphanage">
-                <img src="https://images.unsplash.com/photo-1535572290543-960a8046f5af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
-              </div>
-
-              <div class="info-orphanage">
-                <h3>nome do orfanato</h3>
-
-                <div>
-                  <p>Descrição</p>
-                </div>
-
-                <div>
-                  
-                  <p><span>&#128222;</span>9454815-25481</p>
-                </div>
-
-                <button type="button">Deletar cadastro</button>
-
-              </div>
-            </div> --}}
-
-            <form id="formDelete" action="" method="POST">
+            <form id="formDelete" action="/list-orphanages?_method=DELETE" method="POST">
               <input type="hidden" name="id" value="{{id}}">
-            </form>
-
-           
+            </form>           
 
         </div>
      </main>
