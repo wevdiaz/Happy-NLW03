@@ -52,9 +52,7 @@ function selectImage(event) {
 
 
     button.classList.add("active");
-
-    console.log(image)
-    
+        
 }
 
     
