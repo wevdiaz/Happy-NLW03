@@ -60,9 +60,41 @@ a.create-orphanage {
     transition: background-color 200ms;
 }
 
+a.delete-orphanage {
+    position: absolute;
+    left: 38rem;
+    bottom: 4rem;
+    z-index: 10;
+
+    width: 6.4rem;
+    height: 6.4rem;
+    background-color: coral;
+    border: 0;
+    border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;    
+    text-decoration: none;
+
+    transition: background-color 200ms;
+}
+
 a.create-orphanage:hover {
     background: #17d6eb;
 }
+
+a.delete-orphanage:hover {
+    background-color: lightsalmon;
+}
+
+a.delete-orphanage .material-icons {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
 
 .leaflet-popup-content-wrapper {
     background: rgba(255, 255, 255, 0.8); 
