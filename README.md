@@ -6,6 +6,31 @@
 
 ---
 
+<p align="center">
+  <a href="#speech_balloon-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer_and_wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#scroll-licença">Licença</a>
+</p>
+
+
+<p align="center">
+ 
+  <a>
+    <img src="https://img.shields.io/github/repo-size/wevdiaz/Happy-NLW03">
+  </a>
+  
+  <a>
+   <img src="https://img.shields.io/github/license/wevdiaz/Happy-NLW03">
+  </a>
+  
+  <a>
+   <img src="https://img.shields.io/github/languages/count/wevdiaz/Happy-NLW03">
+  </a>
+  
+</p>
+
+
 ### :speech_balloon: Sobre
 
  Aplicação Web - Happy
@@ -27,7 +52,7 @@ Uma aplicação desenvolvida durante a semana **NLW** da rocketseat, voltada a c
 
 ### :gear: Requesitos
 
-**Necessário o ter o nodejs.**
+**Necessário ter o nodejs instalado.**
 
 * Npm install -> *para instalar as dependências necessárias do projeto*
 * npm start -> *para rodar a aplicação*
@@ -39,7 +64,7 @@ Esse projeto está sob a licença [MIT](https://github.com/wevdiaz/Happy-NLW03/b
 
 ---
 
-Projeto desenvolvido com :blue_heart: e animação a :star_struck: . Rumo ao próximo nível :rocket:
+Projeto desenvolvido com :blue_heart: e animação  :star_struck: . Rumo ao próximo nível :rocket:
 
 
 
