@@ -1,8 +1,12 @@
-<p align="center">
- <img alt="logo"  src="https://raw.githubusercontent.com/wevdiaz/Happy-NLW03/master/public/images/logo-icon.png">
-</p>
+
+ <img align="right" alt="logo"  src="https://raw.githubusercontent.com/wevdiaz/Happy-NLW03/master/public/images/logo-icon.png">
+
 
 # Happy-NLW03 
+
+<p align="center">
+ <img alt="landing-page" src="https://raw.githubusercontent.com/wevdiaz/Happy-NLW03/master/images_site/landing-page.png">
+</p>
 
 ---
 
