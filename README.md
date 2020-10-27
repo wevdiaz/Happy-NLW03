@@ -1,9 +1,12 @@
-<p>![logo do aplicativo](https://raw.githubusercontent.com/wevdiaz/Happy-NLW03/master/public/images/logo-icon.png)</p>
+<p align="center">
+ <img alt="logo"  src="https://raw.githubusercontent.com/wevdiaz/Happy-NLW03/master/public/images/logo-icon.png">
+</p>
+
 # Happy-NLW03 
 
 ---
 
-### Sobre
+### :speech_balloon: Sobre
 
  Aplicação Web - Happy
 
@@ -12,7 +15,7 @@ Uma aplicação desenvolvida durante a semana **NLW** da rocketseat, voltada a c
 
 
 
-### Tecnologias
+### :hammer_and_wrench: Tecnologias
 
 * HTML / CSS
 * Javascript
@@ -22,7 +25,7 @@ Uma aplicação desenvolvida durante a semana **NLW** da rocketseat, voltada a c
 * SQLite
 
 
-### Requesitos
+### :gear: Requesitos
 
 **Necessário o ter o nodejs.**
 
@@ -30,11 +33,13 @@ Uma aplicação desenvolvida durante a semana **NLW** da rocketseat, voltada a c
 * npm start -> *para rodar a aplicação*
 
 
-### Licença
+### :scroll: Licença
 
-Esse projeto está sob a licença MIT.
+Esse projeto está sob a licença [MIT](https://github.com/wevdiaz/Happy-NLW03/blob/master/LICENSE).
 
+---
 
+Projeto desenvolvido com :blue_heart: e animação a :star_struck: . Rumo ao próximo nível :rocket:
 
 
 
