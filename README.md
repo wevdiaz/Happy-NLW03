@@ -14,7 +14,8 @@
   <a href="#speech_balloon-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer_and_wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#scroll-licença">Licença</a>
+  <a href="#scroll-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/wevdiaz/Happy-NLW03/tree/master/images_site">Imagens</a>
 </p>
 
 
@@ -31,6 +32,12 @@
   <a>
    <img src="https://img.shields.io/github/languages/count/wevdiaz/Happy-NLW03">
   </a>
+  
+  <a>
+   <img src="https://img.shields.io/github/commit-activity/m/wevdiaz/Happy-NLW03">
+  </a>
+  
+ 
   
 </p>
 
