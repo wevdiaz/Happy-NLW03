@@ -37,6 +37,10 @@
    <img src="https://img.shields.io/github/commit-activity/m/wevdiaz/Happy-NLW03">
   </a>
   
+  <a>
+  <img alt="Diazz" src="https://img.shields.io/badge/made%20by-Diazz-DOA">
+ </a>
+  
  
   
 </p>
