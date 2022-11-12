@@ -13,7 +13,7 @@
 <p align="center">
   <a href="#speech_balloon-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer_and_wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#scroll-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/wevdiaz/Happy-NLW03/tree/master/images_site">Imagens</a>
 </p>
@@ -65,7 +65,7 @@ Uma aplicação desenvolvida durante a semana **NLW** da rocketseat, voltada a c
 * SQLite
 
 
-### :gear: Requesitos
+### :gear: Requisitos
 
 **Necessário ter o nodejs instalado.**
 
